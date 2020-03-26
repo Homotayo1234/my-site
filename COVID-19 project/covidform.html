@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        COVID-19 FORM</title>
+    <link rel="stylesheet" href="covidform.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="covidtest.html">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                <option value="Nigeria">Nigeria</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="china">China</option>
+                <option value="Italy">Italy</option>
+              </select>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Address Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" required name="Addressname" placeholder="Current Address" required></div>
+                </div>
+            </div>
+    </div>
+    <div class="row">
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
